@@ -6,7 +6,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import CartItemContainer from "../components/CartItemContainer";
 
-function cart() {
+function Cart() {
   const cartItems = useSelector(cartSelector);
   const dispatch = useDispatch();
   return (
@@ -61,4 +61,4 @@ function cart() {
   );
 }
 
-export default cart;
+export default Cart;
